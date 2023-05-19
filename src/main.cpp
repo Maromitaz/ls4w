@@ -48,8 +48,7 @@ void printThing(ghc::filesystem::directory_entry file, std::string message, std:
             ifileSize /= 10;
             spaces--;
         }
-        if (fileSize > 99) spaces++;
-        if (sbyteUnits > 1) spaces++;
+        if (fileSize > 0 || sbyteUnits > 1) spaces++;
 
         std::cout << message << printSpaces(spaces) << fileSize
             << " " << byteUnits[sbyteUnits] << "\t"
