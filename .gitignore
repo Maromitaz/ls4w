@@ -1,1 +1,8 @@
 build
+
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
+*.make
+Makefile
