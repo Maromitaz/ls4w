@@ -14,7 +14,7 @@ No, but you are welcome to use it if you wish to. (BTW, dir is faster).
 
 ### Does this include the whole command? Such as: functionality, arguments you can pass, etc.
 
-No, this is limited to the name of the file or directory/folder you are searching for.
+No, this is limited to the name of the file or directory/folder you are searching for.\
 
 The only argument you can pass is: the name (file.txt), extension (\*.txt) and the file that you are searching for, but don't know the extension (file).
 
